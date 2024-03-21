@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: cbc4ac99fbaf8304eb0a53a3b8eae8b7
   - enabled: 0
-    path: Assets/Scenes/map test.unity
-    guid: c638568a436259440b7cbc68b28d7c43
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/testing.unity
-    guid: 18d205068b5a8e04ba729512e96619f8
+    path: Assets/Scenes/test map.unity
+    guid: f5a8e25084083c746af6ada175d99a67
   m_configObjects: {}
