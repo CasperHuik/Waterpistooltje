@@ -115,7 +115,7 @@ public class GamePlayer : NetworkBehaviour
     void CmdCanLobbyStartGame()
     {
         if(SceneManager.GetActiveScene().name != "Game"){
-            Game.StartGame("Game");
+            Game.StartGame("test map");
         }
         else{
             Game.StartGame("map test");

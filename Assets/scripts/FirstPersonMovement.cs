@@ -46,7 +46,7 @@ public class FirstPersonMovement : NetworkBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name; 
-        if(sceneName == "Game" || sceneName == "map test"){
+        if(sceneName == "Game" || sceneName == "test map"){
             if(PlayerModel.activeSelf == false){
                 PlayerModel.SetActive(true);
                 transform.position = new Vector3(0,10,0);
