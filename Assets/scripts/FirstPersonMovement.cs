@@ -49,11 +49,7 @@ public class FirstPersonMovement : NetworkBehaviour
         if(sceneName == "Game" || sceneName == "map test"){
             if(PlayerModel.activeSelf == false){
                 PlayerModel.SetActive(true);
-                transform.position = new Vector3(600,81,494);
-            }
-            if(sceneName=="map test" && spawnYN == true){
-                spawnYN = false; 
-                transform.position = new Vector3(400,70,400);
+                transform.position = new Vector3(0,10,0);
             }
 
             if(isLocalPlayer){
